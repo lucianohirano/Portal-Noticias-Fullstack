@@ -40,7 +40,6 @@ a {
 
 a:hover {
     color: var(--brand-color-light);
-    text-decoration: underline;
 }
 
 h1,
