@@ -1,0 +1,25 @@
+#menu-primary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 20px;
+}
+
+#menu-primary div {
+    display: flex;
+    gap: 8px;
+}
+
+#menu-primary #logo {
+    width: 160px;
+    height: 32px;
+}
+
+#menu-secondary {
+    display: flex;
+    padding: 14px;
+    justify-content: space-between;
+    border: 1px solid var(--stroke-color);
+    border-inline: none;
+    font: var(--text-sm);
+}
